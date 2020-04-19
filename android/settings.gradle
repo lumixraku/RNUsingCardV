@@ -1,0 +1,7 @@
+rootProject.name = 'cv3'
+include ':react-native-cardv'
+project(':react-native-cardv').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-cardv/android')
+include ':react-native-rn-cardview'
+project(':react-native-rn-cardview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-rn-cardview/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
