@@ -12,7 +12,7 @@
   "dependencies": {
     "git": "^0.1.5",
     "react": "16.11.0",
-    "react-native": "0.62.2",
+    "react-native": "0.62.3",
     "react-native-cardv": "/Users/lilin/repos/RN/react-native-cardv",
     "react-native-my-library": "/Users/lilin/repos/RN/react-native-my-library",
     "react-native-rn-cardview": "git+https://github.com/quenice/react-native-cardview.git"
